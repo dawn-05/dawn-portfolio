@@ -1,3 +1,5 @@
+
+ /* For the title page*/
 header{
     background-color: #48413C;
     text-align: center;
@@ -9,6 +11,7 @@ header{
     color: #EEECE7 ;
 }
 
+/* the entire page*/
 body{
     background-color: #EEECE7;
     color: #48413C;
@@ -16,34 +19,43 @@ body{
 
 }
 
-h4{
+h3{
     font-family: sans-serif;
 }
 
+h2{
+    text-align: center;
+}
+
+/* centering the entire page*/
 .wrapper{
-    width: 300px;
+    width: 500px;
     margin: auto; 
 }
 
+/* the intro page*/
 .introduction{
-    text-align: center;
+    text-align: left;
     padding: 15px;
     border: 30px;
 }
+/* the about page*/
  .about{
-    text-align: center;
+    text-align: left;
+    padding: 5px;
+    border: 30px;
+ }
+/* the contact page*/
+ .contact{
+    text-align: left;
     padding: 5px;
     border: 30px;
  }
 
- .contact{
-    text-align: center;
-    padding: 5px;
-    border: 30px;
- }
+ /* map image */
  img{
-     height: 300px;
-     width: 300px;
+     height: 500px;
+     width: 500px;
      margin: auto;
  }
 

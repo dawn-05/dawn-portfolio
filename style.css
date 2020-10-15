@@ -64,3 +64,8 @@ h2{
     padding: 1px;
     margin: auto 48413C
  }
+
+a:link    { color: blue;  }
+a:visited { color: purple; }
+a:hover   { color: lightblue; }
+a:active  { color: orange; }

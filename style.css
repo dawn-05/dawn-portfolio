@@ -10,6 +10,29 @@ header{
     margin: 50px 48413C;
     color: #EEECE7 ;
 }
+/* styling for nav*/
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+
+  header nav ul li {
+    list-style-type: none;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
 /* the entire page*/
 body{

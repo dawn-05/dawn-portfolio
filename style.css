@@ -28,6 +28,7 @@ header nav {
   }
 
   header nav ul li a {
+    font-size: 25x;
     color: white;
     text-decoration: none;
     padding: 0 20px 0 0;
@@ -49,9 +50,31 @@ h3{
 h2{
     text-align: center;
 }
+/* styling with flex*/
+.group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
 
-main {
-    padding: 20px 0;
+  
+.item-double {
+    flex: 2;
+  }
+  
+  /* --- groups & items for desktop --- */
+  
+  @media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
   }
 
 .name{
@@ -62,7 +85,11 @@ main {
     text-align: center;
 }
 
-
+/* centering the entire page*/
+.wrapper{
+    width: 500px;
+    margin: auto; 
+}
 
 /* the intro page*/
 .introduction{
@@ -82,6 +109,17 @@ main {
     padding: 5px;
     border: 30px;
  }
+ /*contact forms*/
+
+ form {
+    padding-right: 8px;
+    /* Fixed small sizing issue on the right */
+  }
+  
+  form label {
+    display: block;
+  }
+
 
  /* map image */
  img{
@@ -96,10 +134,10 @@ main {
     margin: auto 48413C
  }
 
-a:link    { color: blue;  }
-a:visited { color: purple; }
-a:hover   { color: lightblue; }
-a:active  { color: orange; }
+main a:link    { color: blue;  }
+main a:visited { color: purple; }
+main a:hover   { color: lightblue; }
+main a:active  { color: orange; }
 
 
 @media all and (min-width: 700px) {

@@ -23,7 +23,7 @@
             </nav>
         </header>
         
-        <main>
+        <main class="wrapper">
             <!--This is INTRO page-->
             <section class ="introduction">
                 <div class = "group">
@@ -47,7 +47,7 @@
             <section class="about"> 
                 <h2> About Me </h2>
                 <div class="group">
-                    <div class="item item-double" 
+                    <div class="item item-double">
                         <h3>Goal:</h3> 
                         <p>
                             After graduating college with an Art major, I want to expand art in various forms, 
@@ -89,14 +89,29 @@
              <section class="contact">
                 <h2>Contact</h2>
                 <div class="group">
-                    <div class="item">
+                    <div class="items">
                  <p>I'd love to hear from you! Please feel free to Contact or follow me</p>
+                 <form action="#" method="POST">
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name">
+          
+                    <label for="user-email">Email:</label>
+                    <input id="user-email" type="text" name="email">
+          
+                    <label for="user-message">Message:</label>
+                    <textarea id="user-message" name="message"></textarea>
+                    <button type="submit">Submit</button>
+                  </form>
+                  <form action="https://formspree.io/dlin3579@gmail.com" method="post">
+                     <!-- add the input elements here -->
+                    </form>
                  <ol>  <!--Link to personal profile-->
+                    <li><a href="mailto:dlin3579@gmail.com">dlin3579@gmail.com</a> </li>
                    <li> <a href="https://www.linkedin.com/in/dawn-lin-126b6211a/"> Linkedin </a> </li>
                    <li> <a href="https://github.com/dawn-05"> Github </a> </li>
                  </ol>
                  <img src="https://www.metroatlantachamber.com/assets/msamap_4XV1pDW.png" alt="metro Atlanta map">
-                 </div>
+                </div>
                  </div>
              </section>
         </main>

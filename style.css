@@ -50,11 +50,19 @@ h2{
     text-align: center;
 }
 
-/* centering the entire page*/
-.wrapper{
-    width: 500px;
-    margin: auto; 
+main {
+    padding: 20px 0;
+  }
+
+.name{
+    font-size: 50px;
+    font-family: cursive;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
+
+
 
 /* the intro page*/
 .introduction{
@@ -92,3 +100,10 @@ a:link    { color: blue;  }
 a:visited { color: purple; }
 a:hover   { color: lightblue; }
 a:active  { color: orange; }
+
+
+@media all and (min-width: 700px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }

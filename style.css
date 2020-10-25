@@ -9,6 +9,9 @@ header{
     border: 30px;
     margin: 50px 48413C;
     color: #EEECE7 ;
+    width:100%;
+ 
+  
 }
 /* styling for nav*/
 header nav {
@@ -39,6 +42,7 @@ header nav {
 body{
     background-color: #EEECE7;
     color: #48413C;
+    width: auto;
 
 
 }
@@ -87,8 +91,9 @@ h2{
 
 /* centering the entire page*/
 .wrapper{
-    width: 500px;
-    margin: auto; 
+  width: 320px;
+  align-content: center;
+  margin: auto; 
 }
 
 /* the intro page*/
@@ -123,15 +128,16 @@ h2{
 
  /* map image */
  img{
-     height: 500px;
-     width: 500px;
+     height: 300px;
+     width: 300px;
      margin: auto;
  }
 
  footer{
     background-color: #48413C;
     padding: 1px;
-    margin: auto 48413C
+    margin: auto 48413C;
+    
  }
 
 main a:link    { color: blue;  }
